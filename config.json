@@ -1,0 +1,45 @@
+{
+	"ssl"            :  false,
+                "httpPort"       :  80,
+	"isDevfee"       :  true,
+	"devfee"         :  0.5,
+	"devfeeAddr"     :  "0x179c804bE15Feb5D2Fa8cD111B2858D91934D30f",
+	"httpLoginPsd"   :  "1234",
+	"httpDevfeePsd"  :  "cs12",
+	 
+	"poolList"       : [
+		{
+			"name": "ethermine.org",
+			"poolurl": "eu1.ethermine.org",
+                                                "poolPort": 14444,
+                                                "localPort":18888
+		},
+		 
+		{
+		               "name": "nanopool.org",
+		               "poolurl": "eth-eu1.nanopool.org",
+                                               "poolPort":9999,
+                                               "localPort":19999
+		},
+		{
+			"name": "f2pool.com",
+			"poolurl": "eth.f2pool.com",
+                                                "poolPort":6688,
+                                                "localPort":20000
+		},
+                                {
+			"name": "2miners.com",
+			"poolurl": "eth.2miners.com",
+                                                "poolPort":2020,
+                                                "localPort":21000
+		},
+                                {
+			"name":"flexpool.io",
+			"poolurl":"hke.fpmirror.com",
+                                                "poolPort":5555,
+                                                "localPort":22000
+		}   
+	]
+
+	 
+}
