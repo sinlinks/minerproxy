@@ -8,7 +8,7 @@
     cd minerproxy
     chmod 777 minerproxy_linux_amd64   #设置权限
     nohup ./minerproxy_linux_amd64 &    #后台运行，注意：& 也需要复制，运行完再敲几下回车
-    tail -f nohup.out      #后台运行查看' ctrl+c  退出查看
+    tail -f nohup.out      #后台运行查看, 退出查看:ctrl+c
 #浏览器查看程序运行状态
 ----
     打开浏览器，在地址栏输入您的服务器的IP地址/密码， 例如输入：
